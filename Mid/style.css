@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:azure;
+    background-color:rgb(248, 225, 229);
 }
 header {
     background-color:cornsilk;
@@ -11,22 +11,87 @@ header {
     padding: 25px;
 }
 nav {
-    background-color:cadetblue;
+    background-color:coral;
     text-align: center;
-    padding: 12px;
+    padding: 20px;
 }
 nav a {
-    color: brown;
+    color: black;
     text-decoration: none;
     margin: 0 20px;
     font-weight: bold;
 }
 nav a:hover {
-    color:darkgoldenrod;
+    color:blueviolet;
 }
 main {
     padding: 30px;
 }
 .description {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+.form-section {
+    display:flex;
+    justify-content:center;
+}
+
+form {
+    background-color: white;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    padding: 25px;
+    width: 450px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.radio-group {
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.radio-group input {
+    width: auto;
+}
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color:blueviolet;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:chocolate;
+}
+
+footer {
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
